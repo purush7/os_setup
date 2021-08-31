@@ -14,7 +14,7 @@ echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg arch=
 apt update && apt install brave-browser
 
 # sway
-apt install sway swayidle swaybg sway-backgrounds grimshot wdisplays wofi kitty waybar # alacritty not in debian
+apt install sway swayidle swaybg sway-backgrounds grimshot wdisplays wofi foot waybar # alacritty not in debian , kitty
 
 # sway tools
 apt install grim mako-notifier jq slurp brightnessctl fzf ffmpeg wf-recorder playerctl wl-clipboard # swappy
@@ -32,3 +32,7 @@ wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - 
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 p10k configure
 
+# add vscode
+curl -sSL https://packages.microsoft.com/keys/microsoft.asc | apt-key add - 
+add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
+apt update && apt install code
