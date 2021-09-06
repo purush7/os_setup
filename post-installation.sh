@@ -40,8 +40,10 @@ curl -sSL https://packages.microsoft.com/keys/microsoft.asc | apt-key add -
 add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
 apt update && apt install code
 
-
-
 ## add non-free contrib in apt/sources.list
 apt install intel-microcode firmware-realtek firmware-intel-sound firmware-intelwimax firmware-linux-nonfree
 update-initramfs -v -u
+
+## general tools
+apt install hugo
+
