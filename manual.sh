@@ -10,4 +10,4 @@ dpkg-reconfigure config-data
 cd /usr/share/applications
 sudo echo "[Desktop Entry]\nName=MYKI\nVersion=1.0\nExec=/home/purush/Downloads/MYKI-latest.AppImage" >
 myki.desktop
-sudo apt update-database
+sudo update-desktop-database
