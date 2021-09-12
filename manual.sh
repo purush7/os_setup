@@ -28,7 +28,7 @@ sudo apt update && sudo apt install spotify-client spotify-client-gnome-support
 
 echo "##Spotify Blocked ads\n0.0.0.0 pubads.g.doubleclick.net\n0.0.0.0
 securepubads.g.doubleclick.net\n0.0.0.0 http://www.googletagservices.com\n0.0.0.0
-gads.pubmatic.com\n0.0.0.0 ads.pubmatic.com\n0.0.0.0 spclient.wg.spotify.com" >> /etc/hosts
+gads.pubmatic.com\n0.0.0.0 ads.pubmatic.com" >> /etc/hosts
 
 
 ## bluetooth
