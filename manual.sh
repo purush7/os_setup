@@ -34,4 +34,8 @@ gads.pubmatic.com\n0.0.0.0 ads.pubmatic.com" >> /etc/hosts
 ## bluetooth
 sudo apt install bluemanager
 
+## lockscreen
+sudo apt install physlock
 
+## convbin dependency
+sudo apt install shc
