@@ -39,3 +39,9 @@ sudo apt install physlock
 
 ## convbin dependency
 sudo apt install shc
+
+## document-viewer vim like
+sudo apt install zathura
+
+### add extensions to brave 
+echo "Add vimium extension to brave"
