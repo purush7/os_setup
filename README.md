@@ -1,1 +1,1 @@
-## This repos contains script to reproduce the os environment needed
+## This repos contains script to reproduce the raspberry-pi(arm64) environment needed
