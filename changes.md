@@ -33,7 +33,7 @@ sudo chsh purush /usr/bin/zsh
 
 ## generate ssh key and copy it
 ssh-keygen -t ed25519 -C "mailID"
-cat .ssh/*.pub
+cat .ssh/\*.pub
 echo "copy the contents to github"
 
 ## Pre-requistes
@@ -78,14 +78,14 @@ echo "logout and login"
 
 - [ ] Automate to install packages from packages.list create a new prompt y/n at the start
 - [ ] Change capslock with Escape
-- [ ] Add necessary packages
-- [ ] copy the dot-files
-- [ ] Add docker
-- [ ] How to find all the services?
-- [ ] purpose of hostname?
-- [ ] iwconfig
+- [x] Add necessary packages
+- [x] copy the dot-files
+- [x] Add docker
+- [ ] Change owner of docker
+- [ ] Remove autostart of docker and find docker engine components
+- [ ] Automatically mount hard-disks
 - [ ] wifi packages
 - [ ] static ip
-- [ ] What is /etc/environment?
-- [ ] What is dpkg-reconfigure in debian and ubuntu?
-- [ ] What is locale and is it different for each terminal?
+- [ ] how to add all devices except few in hosts.deny
+- [ ] Create a clipboard in go which writes into /tmp/clipfile and reads from it.
+- [ ] Finally, convert changes.md to installation_script.sh
