@@ -47,3 +47,5 @@ update-initramfs -v -u
 ## general tools
 apt install hugo
 
+## install ncal or cal
+apt install ncal
